@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    flaskapp:
+        build: 
+        container_name: angular
+        ports:
+            - "4200:4200"
+        network_mode: host
